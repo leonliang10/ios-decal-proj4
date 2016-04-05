@@ -11,7 +11,7 @@ PlotMe can also be used to convert plots into functions through image processing
 ## Features
 * Displays a plot of an input function on the display of the camera for users to trace on paper
 * Functions as a graphing calculator
-* Take a picture of a plot converts it into a function
+* Takes a picture of a plot and converts it into a function
 
 ## Control Flow
 * Users are initially presented with a graphing calculate interface, where they can input any 
