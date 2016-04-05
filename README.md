@@ -1,12 +1,12 @@
-# GraphMe
+# PlotMe
 
 ## Author
 * Leon Liang
 
 ## Purpose
-GraphMe is a graphing application that helps users plot graphs with precision. 
-GraphMe utilizes the camera on iOS devices to allow users to trace their desire plots on paper. (79 chars)
-GraphMe can also be used to convert plots into functions through image processing.
+PlotMe is a graphing application that helps users plot graphs with precision. 
+PlotMe utilizes the camera on iOS devices to allow users to trace their desire plots on paper.
+PlotMe can also be used to convert plots into functions through image processing.
 
 ## Features
 Bullet Points: [List each feature you will implement. e.g. Ability to view outfit pages with photos. Filter by cat size. Users can share outfit page listings with friends.]
