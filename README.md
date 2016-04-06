@@ -9,9 +9,10 @@ PlotMe utilizes the camera on iOS devices to allow users to trace their desire p
 PlotMe can also be used to convert plots into functions through image processing.
 
 ## Features
-* Displays a plot of an input function on the display of the camera for users to trace on paper
+* Displays a plot of user inputted functions on top of the camera display for users to trace 
+on paper in real-time
 * Functions as a graphing calculator
-* Takes a picture of a plot and converts it into a function
+* Takes a picture of a plot, and the application will identify and convert it into functions
 
 ## Control Flow
 * Users are initially presented with a graphing calculate interface, where they can input any 
