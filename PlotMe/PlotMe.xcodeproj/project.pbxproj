@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB0588B31CD6CC7900F07591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0588B21CD6CC7900F07591 /* AppDelegate.swift */; };
+		FB0588B51CD6CC7900F07591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0588B41CD6CC7900F07591 /* ViewController.swift */; };
+		FB0588B81CD6CC7900F07591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0588B61CD6CC7900F07591 /* Main.storyboard */; };
+		FB0588BA1CD6CC7900F07591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0588B91CD6CC7900F07591 /* Assets.xcassets */; };
+		FB0588BD1CD6CC7900F07591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0588BB1CD6CC7900F07591 /* LaunchScreen.storyboard */; };
+		FB0588C81CD6CC7900F07591 /* PlotMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0588C71CD6CC7900F07591 /* PlotMeTests.swift */; };
+		FB0588D31CD6CC7900F07591 /* PlotMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0588D21CD6CC7900F07591 /* PlotMeUITests.swift */; };
+		FB0588E21CD6CD0E00F07591 /* CustomOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0588E01CD6CD0E00F07591 /* CustomOverlayViewController.swift */; };
+		FB0588E31CD6CD0E00F07591 /* CustomOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB0588E11CD6CD0E00F07591 /* CustomOverlayViewController.xib */; };
+		FB0588E51CD6CD1A00F07591 /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0588E41CD6CD1A00F07591 /* CustomOverlayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB0588C41CD6CC7900F07591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0588A71CD6CC7900F07591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0588AE1CD6CC7900F07591;
+			remoteInfo = PlotMe;
+		};
+		FB0588CF1CD6CC7900F07591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0588A71CD6CC7900F07591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0588AE1CD6CC7900F07591;
+			remoteInfo = PlotMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB0588AF1CD6CC7900F07591 /* PlotMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlotMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0588B21CD6CC7900F07591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB0588B41CD6CC7900F07591 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB0588B71CD6CC7900F07591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB0588B91CD6CC7900F07591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB0588BC1CD6CC7900F07591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB0588BE1CD6CC7900F07591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0588C31CD6CC7900F07591 /* PlotMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlotMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0588C71CD6CC7900F07591 /* PlotMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotMeTests.swift; sourceTree = "<group>"; };
+		FB0588C91CD6CC7900F07591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0588CE1CD6CC7900F07591 /* PlotMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlotMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0588D21CD6CC7900F07591 /* PlotMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotMeUITests.swift; sourceTree = "<group>"; };
+		FB0588D41CD6CC7900F07591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0588E01CD6CD0E00F07591 /* CustomOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayViewController.swift; sourceTree = "<group>"; };
+		FB0588E11CD6CD0E00F07591 /* CustomOverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayViewController.xib; sourceTree = "<group>"; };
+		FB0588E41CD6CD1A00F07591 /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB0588AC1CD6CC7900F07591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0588C01CD6CC7900F07591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0588CB1CD6CC7900F07591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB0588A61CD6CC7900F07591 = {
+			isa = PBXGroup;
+			children = (
+				FB0588B11CD6CC7900F07591 /* PlotMe */,
+				FB0588C61CD6CC7900F07591 /* PlotMeTests */,
+				FB0588D11CD6CC7900F07591 /* PlotMeUITests */,
+				FB0588B01CD6CC7900F07591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0588B01CD6CC7900F07591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0588AF1CD6CC7900F07591 /* PlotMe.app */,
+				FB0588C31CD6CC7900F07591 /* PlotMeTests.xctest */,
+				FB0588CE1CD6CC7900F07591 /* PlotMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB0588B11CD6CC7900F07591 /* PlotMe */ = {
+			isa = PBXGroup;
+			children = (
+				FB0588B21CD6CC7900F07591 /* AppDelegate.swift */,
+				FB0588B41CD6CC7900F07591 /* ViewController.swift */,
+				FB0588B61CD6CC7900F07591 /* Main.storyboard */,
+				FB0588E01CD6CD0E00F07591 /* CustomOverlayViewController.swift */,
+				FB0588E11CD6CD0E00F07591 /* CustomOverlayViewController.xib */,
+				FB0588E41CD6CD1A00F07591 /* CustomOverlayView.swift */,
+				FB0588B91CD6CC7900F07591 /* Assets.xcassets */,
+				FB0588BB1CD6CC7900F07591 /* LaunchScreen.storyboard */,
+				FB0588BE1CD6CC7900F07591 /* Info.plist */,
+			);
+			path = PlotMe;
+			sourceTree = "<group>";
+		};
+		FB0588C61CD6CC7900F07591 /* PlotMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0588C71CD6CC7900F07591 /* PlotMeTests.swift */,
+				FB0588C91CD6CC7900F07591 /* Info.plist */,
+			);
+			path = PlotMeTests;
+			sourceTree = "<group>";
+		};
+		FB0588D11CD6CC7900F07591 /* PlotMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0588D21CD6CC7900F07591 /* PlotMeUITests.swift */,
+				FB0588D41CD6CC7900F07591 /* Info.plist */,
+			);
+			path = PlotMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0588AE1CD6CC7900F07591 /* PlotMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0588D71CD6CC7900F07591 /* Build configuration list for PBXNativeTarget "PlotMe" */;
+			buildPhases = (
+				FB0588AB1CD6CC7900F07591 /* Sources */,
+				FB0588AC1CD6CC7900F07591 /* Frameworks */,
+				FB0588AD1CD6CC7900F07591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlotMe;
+			productName = PlotMe;
+			productReference = FB0588AF1CD6CC7900F07591 /* PlotMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB0588C21CD6CC7900F07591 /* PlotMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0588DA1CD6CC7900F07591 /* Build configuration list for PBXNativeTarget "PlotMeTests" */;
+			buildPhases = (
+				FB0588BF1CD6CC7900F07591 /* Sources */,
+				FB0588C01CD6CC7900F07591 /* Frameworks */,
+				FB0588C11CD6CC7900F07591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0588C51CD6CC7900F07591 /* PBXTargetDependency */,
+			);
+			name = PlotMeTests;
+			productName = PlotMeTests;
+			productReference = FB0588C31CD6CC7900F07591 /* PlotMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0588CD1CD6CC7900F07591 /* PlotMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0588DD1CD6CC7900F07591 /* Build configuration list for PBXNativeTarget "PlotMeUITests" */;
+			buildPhases = (
+				FB0588CA1CD6CC7900F07591 /* Sources */,
+				FB0588CB1CD6CC7900F07591 /* Frameworks */,
+				FB0588CC1CD6CC7900F07591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0588D01CD6CC7900F07591 /* PBXTargetDependency */,
+			);
+			name = PlotMeUITests;
+			productName = PlotMeUITests;
+			productReference = FB0588CE1CD6CC7900F07591 /* PlotMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB0588A71CD6CC7900F07591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Leon Liang";
+				TargetAttributes = {
+					FB0588AE1CD6CC7900F07591 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5ULEGXHX5Y;
+					};
+					FB0588C21CD6CC7900F07591 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5ULEGXHX5Y;
+						TestTargetID = FB0588AE1CD6CC7900F07591;
+					};
+					FB0588CD1CD6CC7900F07591 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5ULEGXHX5Y;
+						TestTargetID = FB0588AE1CD6CC7900F07591;
+					};
+				};
+			};
+			buildConfigurationList = FB0588AA1CD6CC7900F07591 /* Build configuration list for PBXProject "PlotMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB0588A61CD6CC7900F07591;
+			productRefGroup = FB0588B01CD6CC7900F07591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0588AE1CD6CC7900F07591 /* PlotMe */,
+				FB0588C21CD6CC7900F07591 /* PlotMeTests */,
+				FB0588CD1CD6CC7900F07591 /* PlotMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0588AD1CD6CC7900F07591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0588E31CD6CD0E00F07591 /* CustomOverlayViewController.xib in Resources */,
+				FB0588BD1CD6CC7900F07591 /* LaunchScreen.storyboard in Resources */,
+				FB0588BA1CD6CC7900F07591 /* Assets.xcassets in Resources */,
+				FB0588B81CD6CC7900F07591 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0588C11CD6CC7900F07591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0588CC1CD6CC7900F07591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB0588AB1CD6CC7900F07591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0588E21CD6CD0E00F07591 /* CustomOverlayViewController.swift in Sources */,
+				FB0588B51CD6CC7900F07591 /* ViewController.swift in Sources */,
+				FB0588E51CD6CD1A00F07591 /* CustomOverlayView.swift in Sources */,
+				FB0588B31CD6CC7900F07591 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0588BF1CD6CC7900F07591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0588C81CD6CC7900F07591 /* PlotMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0588CA1CD6CC7900F07591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0588D31CD6CC7900F07591 /* PlotMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB0588C51CD6CC7900F07591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0588AE1CD6CC7900F07591 /* PlotMe */;
+			targetProxy = FB0588C41CD6CC7900F07591 /* PBXContainerItemProxy */;
+		};
+		FB0588D01CD6CC7900F07591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0588AE1CD6CC7900F07591 /* PlotMe */;
+			targetProxy = FB0588CF1CD6CC7900F07591 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB0588B61CD6CC7900F07591 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0588B71CD6CC7900F07591 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB0588BB1CD6CC7900F07591 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0588BC1CD6CC7900F07591 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB0588D51CD6CC7900F07591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB0588D61CD6CC7900F07591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB0588D81CD6CC7900F07591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlotMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonliang.PlotMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB0588D91CD6CC7900F07591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlotMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonliang.PlotMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB0588DB1CD6CC7900F07591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlotMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonliang.PlotMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlotMe.app/PlotMe";
+			};
+			name = Debug;
+		};
+		FB0588DC1CD6CC7900F07591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlotMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonliang.PlotMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlotMe.app/PlotMe";
+			};
+			name = Release;
+		};
+		FB0588DE1CD6CC7900F07591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlotMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonliang.PlotMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlotMe;
+			};
+			name = Debug;
+		};
+		FB0588DF1CD6CC7900F07591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlotMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonliang.PlotMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlotMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB0588AA1CD6CC7900F07591 /* Build configuration list for PBXProject "PlotMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0588D51CD6CC7900F07591 /* Debug */,
+				FB0588D61CD6CC7900F07591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0588D71CD6CC7900F07591 /* Build configuration list for PBXNativeTarget "PlotMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0588D81CD6CC7900F07591 /* Debug */,
+				FB0588D91CD6CC7900F07591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB0588DA1CD6CC7900F07591 /* Build configuration list for PBXNativeTarget "PlotMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0588DB1CD6CC7900F07591 /* Debug */,
+				FB0588DC1CD6CC7900F07591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB0588DD1CD6CC7900F07591 /* Build configuration list for PBXNativeTarget "PlotMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0588DE1CD6CC7900F07591 /* Debug */,
+				FB0588DF1CD6CC7900F07591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB0588A71CD6CC7900F07591 /* Project object */;
+}

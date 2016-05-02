@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomOverlayViewController" customModule="PlotMe" customModuleProvider="target">
+            <connections>
+                <outlet property="graphOverlayImageView" destination="FNC-RZ-1V8" id="aFJ-Tw-kKu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="CustomOverlayView" customModule="PlotMe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJD-Cl-PtS">
+                    <rect key="frame" x="322" y="655" width="80" height="73"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <state key="normal" title="Done">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelButton:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="DbC-H1-kpE"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FNC-RZ-1V8">
+                    <rect key="frame" x="0.0" y="63" width="414" height="414"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="414" id="7x3-ql-Qb0"/>
+                        <constraint firstAttribute="width" constant="398" id="V1I-oO-wV0"/>
+                        <constraint firstAttribute="height" constant="398" id="d02-zg-Z3W"/>
+                        <constraint firstAttribute="width" constant="414" id="wkj-Tr-x1m"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="V1I-oO-wV0"/>
+                            <exclude reference="d02-zg-Z3W"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FNC-RZ-1V8" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="6Ku-60-cgR"/>
+                <constraint firstItem="hJD-Cl-PtS" firstAttribute="top" secondItem="FNC-RZ-1V8" secondAttribute="bottom" constant="221" id="ECP-Ea-q6i"/>
+                <constraint firstItem="FNC-RZ-1V8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="63" id="I1n-0N-2Bk"/>
+                <constraint firstItem="FNC-RZ-1V8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LO7-Kr-2CA"/>
+                <constraint firstItem="hJD-Cl-PtS" firstAttribute="top" secondItem="FNC-RZ-1V8" secondAttribute="bottom" constant="212" id="LaW-dF-2hx"/>
+                <constraint firstItem="FNC-RZ-1V8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RYc-Wg-z3S"/>
+                <constraint firstItem="hJD-Cl-PtS" firstAttribute="top" secondItem="FNC-RZ-1V8" secondAttribute="bottom" constant="162" id="Rhh-go-tyU"/>
+                <constraint firstItem="FNC-RZ-1V8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="45" id="WRa-b0-zsN"/>
+                <constraint firstItem="FNC-RZ-1V8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Wf1-CV-QK9"/>
+                <constraint firstAttribute="trailing" secondItem="FNC-RZ-1V8" secondAttribute="trailing" id="XrO-if-Npv"/>
+                <constraint firstItem="FNC-RZ-1V8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="75" id="Ypa-4A-fLz"/>
+                <constraint firstAttribute="trailing" secondItem="FNC-RZ-1V8" secondAttribute="trailing" id="a4w-vw-Pb4"/>
+                <constraint firstItem="FNC-RZ-1V8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="arn-Op-arx"/>
+                <constraint firstAttribute="bottom" secondItem="hJD-Cl-PtS" secondAttribute="bottom" constant="8" id="bOf-00-Ry5"/>
+                <constraint firstAttribute="trailing" secondItem="hJD-Cl-PtS" secondAttribute="trailing" constant="12" id="cQV-6r-MRd"/>
+                <constraint firstItem="FNC-RZ-1V8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dvY-40-8EU"/>
+                <constraint firstItem="FNC-RZ-1V8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="45" id="eBT-ik-q7U"/>
+                <constraint firstAttribute="bottom" secondItem="hJD-Cl-PtS" secondAttribute="bottom" constant="8" id="fIn-fR-Adf"/>
+                <constraint firstItem="FNC-RZ-1V8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ghz-sh-Zaq"/>
+                <constraint firstAttribute="trailing" secondItem="hJD-Cl-PtS" secondAttribute="trailing" constant="12" id="jPI-Gq-Mop"/>
+                <constraint firstItem="hJD-Cl-PtS" firstAttribute="top" secondItem="FNC-RZ-1V8" secondAttribute="bottom" constant="212" id="m35-Di-6cc"/>
+                <constraint firstItem="hJD-Cl-PtS" firstAttribute="top" secondItem="FNC-RZ-1V8" secondAttribute="bottom" constant="8" id="t6p-fU-1yb"/>
+                <constraint firstAttribute="trailing" secondItem="FNC-RZ-1V8" secondAttribute="trailing" id="vfZ-4M-TEM"/>
+                <constraint firstItem="hJD-Cl-PtS" firstAttribute="top" secondItem="FNC-RZ-1V8" secondAttribute="bottom" constant="209" id="vgl-sF-iwl"/>
+                <constraint firstAttribute="trailing" secondItem="FNC-RZ-1V8" secondAttribute="trailing" id="zW4-rG-YdG"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="6Ku-60-cgR"/>
+                    <exclude reference="LO7-Kr-2CA"/>
+                    <exclude reference="RYc-Wg-z3S"/>
+                    <exclude reference="WRa-b0-zsN"/>
+                    <exclude reference="Wf1-CV-QK9"/>
+                    <exclude reference="Ypa-4A-fLz"/>
+                    <exclude reference="a4w-vw-Pb4"/>
+                    <exclude reference="arn-Op-arx"/>
+                    <exclude reference="dvY-40-8EU"/>
+                    <exclude reference="eBT-ik-q7U"/>
+                    <exclude reference="vfZ-4M-TEM"/>
+                    <exclude reference="zW4-rG-YdG"/>
+                    <exclude reference="ECP-Ea-q6i"/>
+                    <exclude reference="LaW-dF-2hx"/>
+                    <exclude reference="Rhh-go-tyU"/>
+                    <exclude reference="fIn-fR-Adf"/>
+                    <exclude reference="jPI-Gq-Mop"/>
+                    <exclude reference="m35-Di-6cc"/>
+                    <exclude reference="t6p-fU-1yb"/>
+                    <exclude reference="vgl-sF-iwl"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

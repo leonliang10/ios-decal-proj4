@@ -6,35 +6,25 @@
 ## Purpose
 PlotMe is a graphing application that helps users plot graphs with precision. 
 PlotMe utilizes the camera on iOS devices to allow users to trace their desire plots on paper.
-PlotMe can also be used to convert plots into functions through image processing.
 
 ## Features
-* Displays a plot of user inputted functions on top of the camera display for users to trace 
-on paper in real-time
-* Functions as a graphing calculator
-* Takes a picture of a plot, and the application will identify and convert it into functions
+* Displays a variety of math functions for users to use
+* Displays an overlay view of the selected function on the camera interface for users to 
+trace on paper in real-time
 
 ## Control Flow
-* Users are initially presented with a graphing calculate interface, where they can input any 
-commonly used functions and it'll be plotted
-* Tapping the trace button will activate the camera with the plot displayed on the camera
-interface. This is where users can proceed to trace the plot on paper.
-* Tapping the camera button will activate the camera where users can take a picture of an
-existing plot on paper, and it will be converted to a function where it will be displayed
-on the graphing calculating interface.
+* Users are initially presented with an interface that contains the list of supported
+functions 
+* Tapping one of the functions will bring up the camera interface as well as an overlay
+of the function that the user chose
+* Once the user is done tracing, tapping the done button will go back to the main menu
+of list of functions
 
 ## Implementation
 
-### Model
-* Functions.swift
-* Plots.swift
-
 ### View
-* PlotView
-* CameraView
-* CalculatorView
+* CustomOverlayView
 
 ### Controller
-* PlotViewController
-* CameraViewController
-* CalculatorViewController
+* CustomOverlayViewController
+* ViewController
